@@ -1,0 +1,127 @@
+<html>
+    <!--this is the title of the website-->
+    <head>
+        <!-- this is to link my stylesheet-->
+        <!-- <link rel="stylesheet" href="mystyle.css"> -->
+        <link rel="stylesheet" href="mystyle.css">
+
+        <title>
+            my web page
+        </title>
+
+        <style>
+            h1 {
+                color: green;
+            }
+            h2 {
+                background-color: aliceblue;
+            }
+            p {
+                color:yellow;
+                font-size: x-large;
+            }
+
+            table, th, td {
+                border:1px solid black;}
+            
+        </style>
+    </head>
+
+    <body>
+        <h1 style="color: blue;">this is my first heading</h1>
+        <h1> this is another h1 tag using internal css</h1>
+        <h2 id="heading2">this is test of h2</h2>
+        <h2 class="para1">heading 2</h2>
+        <h2>this is heading 2</h2>
+        <h3>heading3</h3>
+        <h4></h4>
+        <p style="color: brown;">this is a paragraph</p>
+        <p>this is another paragraph</p>
+
+        <a href="https://www.deakin.edu.au/">visit deakin page
+
+        </a>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png" 
+        alt="image" width="500" height="500">
+
+        <!--this is to apporach the frame of the table and content-->
+        <table>
+            <tr>
+                <th>home</th>
+                <th>address</th>
+                <th>email</th>
+            </tr>
+            <tr>
+                <td>anywhere</td>
+                <td>any place</td>
+                <td>123@gmail.com</td>
+
+            </tr>
+        </table>
+        <!--to div-->
+        <div class="row">
+            <div class="column">
+
+            </div>
+        </div>
+
+        <h1>my survey form</h1>
+        <p style="color: black;">please provide us with your feedback</p>
+    
+        <form>
+            <div>
+                <fieldset>
+    
+                    <label for="name":></label>
+                    <input type="text" name="name">
+    
+                </fieldset>
+            </div>
+            
+            <!--do for email-->
+            <!--mobile phone-->
+    
+            <div>
+                <select name="question" id="question">
+                    <option value ="firstvalue">First Valued</option>
+                    <option value ="second value">Second Value</option>
+                    <option value ="second value">Third Value</option>
+                </select>
+            </div>
+            
+    
+            <br>
+            
+    <!--to let user write comments-->
+            <div>
+                <textarea rows="10" cols="30">
+                    Please provide your comments!
+                </textarea>
+            </div>
+
+    <!--Checkboxes let a user select ZERO or MORE options of a limited number of choices.-->
+            <div>
+                <label for="name">i have a pen:</label>
+                <input type="checkbox" name="name"/>
+                <br>
+                <label for="name2">i have a pencil:</label>
+                <input type="checkbox" name="name2"/>
+                <br>
+                <label for="name3">i have a rubber</label>
+                <input type="checkbox" name="name3"/>
+                <br>
+                <label for="email">enter your email: </label>
+                <input type="email" id="email" name="email">
+                <br>
+                <input type="submit">
+            </div>
+    
+            
+    
+    
+        </form>
+
+    </body>
+
+</html>
